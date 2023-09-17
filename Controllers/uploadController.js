@@ -19,7 +19,7 @@ module.exports = {
     const filename = `image-${uniqueSuffix}.jpg`;
 
     const imagePath = path.join(__dirname, '../uploads', filename);
-
+    console.log("Hello Hello I'm Here");
     try {
       // Save the base64 image to the uploads directory
       await saveBase64Image(base64Data, imagePath);

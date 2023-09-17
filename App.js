@@ -1,7 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const path = require('path'); // Import the 'path' module
+const path = require('path');
+const uploadController = require('./controllers/uploadController'); // Import your uploadController
 
 const app = express();
 
